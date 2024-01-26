@@ -15,12 +15,7 @@ description: "some cs, some others"
 avatar: https://github.com/QMEOWQ/QMEOWQ.github.io/blob/master/images/mario%20(1).png?raw=true
 #https://github.com/qmeowq/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-<<<<<<< HEAD
 favicon: https://github.com/qmeowq/qmeowq.github.io/raw/master/images/reddit(2).ico
-=======
-#favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/favicon.ico 
-favicon:https://github.com/QMEOWQ/QMEOWQ.github.io/blob/master/images/reddit(2).ico
->>>>>>> a77f26560c8afca69a91f0026d8aa5e32a6fce4d
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -61,10 +56,6 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-<<<<<<< HEAD
-=======
-#footer-text: Copyright (c) 2019 lemon
->>>>>>> a77f26560c8afca69a91f0026d8aa5e32a6fce4d
 footer-text: Copyright (c) 2024 QMEOWQ
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -83,11 +74,7 @@ google_analytics: G-FK56BGDKRC
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-<<<<<<< HEAD
 url: https://qmeowq.github.io
-=======
-url: http://qmeowq.github.io
->>>>>>> a77f26560c8afca69a91f0026d8aa5e32a6fce4d
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
