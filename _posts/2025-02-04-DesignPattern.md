@@ -65,7 +65,7 @@
   - 定义一个枚举类型，其中包含单例实例。
   - 提供方法访问该实例。
 
-![alt text](image.png)
+![alt text](../images/2025-02-04-designpattern_images/image.png)
 
 ### 简单工厂模式(静态工厂模式)
 
@@ -219,7 +219,7 @@ int main()
 
 - 工厂方法模式定义了一个创建对象的接口，但由子类决定要实例化的类是哪一个，也就是说工厂模式让实例化推迟到子类。
 
-![alt text](image1.png)
+![alt text](../images/2025-02-04-designpattern_images/image1.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -378,7 +378,7 @@ int main()
 
 抽象工厂的思想是：把有关联关系的，属于一个产品簇的所有产品创建的接口函数，放在一个抽象工厂里面 AbstractFactory，派生类（具体产品的工厂）应该负责创建该产品簇里面所有的产品。
 
-![alt text](image2.png)
+![alt text](../images/2025-02-04-designpattern_images/image2.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -647,7 +647,7 @@ int main()
 
 装饰者模式的精髓在于动态的给对象增减功能。
 
-![alt text](image3.png)
+![alt text](../images/2025-02-04-designpattern_images/image3.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -777,7 +777,7 @@ int main()
 
 适配器模式可以把一个类的接口变换成客户端所期待的另一种接口，从而使原本接口不匹配而无法一起工作的两个类能够在一起工作。
 
-![alt text](image4.png)
+![alt text](../images/2025-02-04-designpattern_images/image4.png)
 
 ```c++#include <iostream>
 #include <string>
@@ -861,7 +861,7 @@ int main()
 
 观察者模式解决的是一个对象状态改变时，如何自动通知其他依赖对象的问题，同时保持对象间的低耦合和高协作性。
 
-![alt text](image5.png)
+![alt text](../images/2025-02-04-designpattern_images/image5.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -998,7 +998,7 @@ int main()
 
 外观模式为一个复杂的子系统提供一个一致的高层接口。这样，客户端代码就可以通过这个简化的接口与子系统交互，而不需要了解子系统内部的复杂性。
 
-![alt text](image6.png)
+![alt text](../images/2025-02-04-designpattern_images/image6.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1185,7 +1185,7 @@ int main()
 状态模式允许一个对象在其内部状态改变时改变其行为，看起来就像是改变了其类一样。
 状态模式解决对象行为依赖于其状态的问题，使得对象可以在状态变化时切换行为。
 
-![alt text](image7.png)
+![alt text](../images/2025-02-04-designpattern_images/image7.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1313,7 +1313,7 @@ int main()
 策略模式将每个算法封装起来，使它们可以互换使用。
 策略模式解决在多种相似算法存在时，使用条件语句（如 if...else）导致的复杂性和难以维护的问题。
 
-![alt text](image8.png)
+![alt text](../images/2025-02-04-designpattern_images/image8.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1420,7 +1420,7 @@ int main()
 代理模式为其他对象提供一种代理以控制对这个对象的访问。
 代理模式解决的是在直接访问某些对象时可能遇到的问题，例如对象创建成本高、需要安全控制或远程访问等。
 
-![alt text](image9.png)
+![alt text](../images/2025-02-04-designpattern_images/image9.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1529,7 +1529,7 @@ int main()
 
 责任链模式可以解耦请求发送者和接收者，使多个对象都有可能接收请求，而发送者不需要知道哪个对象会处理它。
 
-![alt text](image10.png)
+![alt text](../images/2025-02-04-designpattern_images/image10.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1657,7 +1657,7 @@ int main()
 模板模式在父类中定义了算法的骨架，并允许子类在不改变算法结构的前提下重定义算法的某些特定步骤。
 模板模式解决在多个子类中重复实现相同的方法的问题，通过将通用方法抽象到父类中来避免代码重复。
 
-![alt text](image11.png)
+![alt text](../images/2025-02-04-designpattern_images/image11.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1738,7 +1738,7 @@ int main()
 享元模式通过共享对象来减少创建大量相似对象时的内存消耗。
 享元模式解决在系统中存在大量相同或相似对象时，消耗大量内存的问题。
 
-![alt text](image12.png)
+![alt text](../images/2025-02-04-designpattern_images/image12.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1868,7 +1868,7 @@ int main()
 命令模式将一个请求封装为一个对象，从而使你可以用不同的请求对客户进行参数化，对请求排队或记录请求日志，以及支持可撤销的操作。
 命令模式解决在软件系统中请求者和执行者之间的紧耦合问题，特别是在需要对行为进行记录、撤销/重做或事务处理等场景。
 
-![alt text](image13.png)
+![alt text](../images/2025-02-04-designpattern_images/image13.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -1991,7 +1991,7 @@ int main()
 生成器模式将一个复杂的构建过程与其表示相分离，使得同样的构建过程可以创建不同的表示。
 生成器模式可以解决以下问题：在软件系统中，一个复杂对象的创建通常由多个部分组成，这些部分的组合经常变化，但组合的算法相对稳定。
 
-![alt text](image22.png)
+![alt text](../images/2025-02-04-designpattern_images/image22.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2217,7 +2217,7 @@ int main()
 
 原型模式实现了一个原型接口，该接口用于创建当前对象的克隆。当直接创建对象的代价比较大时，则采用这种模式。例如，一个对象需要在一个高代价的数据库操作之后被创建。我们可以缓存该对象，在下一个请求时返回它的克隆，在需要的时候更新数据库，以此来减少数据库调用。
 
-![alt text](image14.png)
+![alt text](../images/2025-02-04-designpattern_images/image14.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2369,7 +2369,7 @@ int main()
 备忘录模式可以在不破坏封装性的前提下，捕获一个对象的内部状态，并允许在对象之外保存和恢复这些状态。
 备忘录模式允许捕获并保存一个对象的内部状态，以便在将来可以恢复到该状态，实现撤销和回滚操作。
 
-![alt text](image15.png)
+![alt text](../images/2025-02-04-designpattern_images/image15.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2486,7 +2486,7 @@ int main()
 迭代器模式可以提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露其内部的表示。
 迭代器模式提供一种统一的方法来遍历不同的聚合对象。
 
-![alt text](image16.png)
+![alt text](../images/2025-02-04-designpattern_images/image16.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2584,7 +2584,7 @@ int main()
 组合模式将对象组合成树形结构以表示"部分-整体"的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。
 组合模式可以简化树形结构中对象的处理，无论它们是单个对象还是组合对象，解耦客户端代码与复杂元素的内部结构，使得客户端可以统一处理所有类型的节点。
 
-![alt text](image17.png)
+![alt text](../images/2025-02-04-designpattern_images/image17.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2672,7 +2672,7 @@ int main()
 桥接模式用于将抽象部分与实现部分分离，使得它们可以独立地变化。
 桥接模式避免了使用继承导致的类爆炸问题，提供更灵活的扩展方式。
 
-![alt text](image18.png)
+![alt text](../images/2025-02-04-designpattern_images/image18.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2765,7 +2765,7 @@ int main()
 中介者模式通过引入一个中介者对象来封装和协调多个对象之间的交互，从而降低对象间的耦合度。
 中介者模式解决对象间复杂的一对多关联问题，避免对象之间的高度耦合，简化系统结构。
 
-![alt text](image19.png)
+![alt text](../images/2025-02-04-designpattern_images/image19.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2848,7 +2848,7 @@ int main()
 访问者模式旨在将数据结构与在该数据结构上执行的操作分离，从而使得添加新的操作变得更容易，而无需修改数据结构本身。
 访问者模式解决在稳定数据结构和易变操作之间的耦合问题，使得操作可以独立于数据结构变化。
 
-![alt text](image20.png)
+![alt text](../images/2025-02-04-designpattern_images/image20.png)
 
 ```c++
 #include <bits/stdc++.h>
@@ -2992,7 +2992,7 @@ int main()
 解释器模式用于构建一个能够解释特定语言或文法的句子的解释器。
 类似于编译原理文法。
 
-![alt text](image21.png)
+![alt text](../images/2025-02-04-designpattern_images/image21.png)
 
 ```c++
 #include <bits/stdc++.h>
